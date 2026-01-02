@@ -1,4 +1,4 @@
-FROM monu70152/laventer:22dec
+FROM monu70152/laventer:2jan
 RUN git clone https://github.com/lyfe00011/levanter.git /root/Monu/
 WORKDIR /root/Monu/
 RUN yarn install
